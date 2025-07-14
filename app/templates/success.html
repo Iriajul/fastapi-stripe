@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Subscription Success</title></head>
+<body>
+  <h1>Subscription Successful!</h1>
+  <p>Thank you for subscribing.</p>
+  <a href="/profile">Back to Profile</a>
+
+  <script>
+    async function updateSubscription() {
+      const params = new URLSearchParams(window.location.search);
+      const username = params.get('username');
+      if (!username) return;
+
+      try {
+        const res = await fetch(`/api/payment/success?username=${encodeURIComponent(username)}`, { method: 'GET', credentials: 'same-origin' });
+        if (!res.ok) throw new Error('Failed to update subscription status');
+        console.log('Subscription status updated');
+      } catch (err) {
+        console.error('Error updating subscription:', err);
+      }
+    }
+
+    updateSubscription();
+  </script>
+</body>
+</html>

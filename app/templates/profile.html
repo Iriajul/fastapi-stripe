@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+</head>
+<body>
+  <h1>Hello, {{ user.username }}</h1>
+  <p>Subscribed: {{ "Yes" if user.is_subscribed else "No" }}</p>
+
+  {% if not user.is_subscribed %}
+    <button id="subscribeBtn">Subscribe via Stripe</button>
+  {% else %}
+    <p>Thank you for subscribing!</p>
+    <button id="billingBtn">Manage Billing</button>
+  {% endif %}
+
+  <p><a href="/logout">Logout</a></p>
+
+  <script>
+    // Utility to extract cookie by name
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+
+    // Handle subscription
+    document.getElementById("subscribeBtn")?.addEventListener("click", async () => {
+      const token = getCookie("access_token");
+      if (!token) {
+        alert("No access token found. Please log in again.");
+        return;
+      }
+
+      try {
+        const res = await fetch("/api/payment/create_checkout/", {
+          method: "GET",
+          headers: {
+            "Authorization": `Bearer ${token}`
+          }
+        });
+
+        if (!res.ok) throw new Error("Failed to create checkout session");
+        const data = await res.json();
+        window.location.href = data.checkout_url;
+      } catch (err) {
+        alert("Error: " + err.message);
+      }
+    });
+
+    // Handle billing portal access
+    document.getElementById("billingBtn")?.addEventListener("click", async () => {
+      const token = getCookie("access_token");
+      if (!token) {
+        alert("No access token found. Please log in again.");
+        return;
+      }
+
+      try {
+        const res = await fetch("/api/payment/billing-portal/", {
+          method: "GET",
+          headers: {
+            "Authorization": `Bearer ${token}`
+          }
+        });
+
+        if (!res.ok) throw new Error("Failed to open billing portal");
+        const data = await res.json();
+        window.location.href = data.portal_url;
+      } catch (err) {
+        alert("Error: " + err.message);
+      }
+    });
+  </script>
+</body>
+</html>
