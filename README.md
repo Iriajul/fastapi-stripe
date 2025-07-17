@@ -49,14 +49,14 @@ A complete authentication and subscription management system with Stripe integra
 ## 📸 Visual Walkthrough
 
 ### 1. Welcome Screen
-<img src="assets/Screenshot_2025-07-17_153214.png" width="400" alt="Welcome Screen">
+<img src="assets/welcome.png" width="400" alt="Welcome Screen">
 
 Start by choosing to **Sign Up** or **Log In**
 
 ---
 
 ### 2. Registration
-<img src="assets/Screenshot_2025-07-17_153258.png" width="400" alt="Sign Up Form">
+<img src="assets/signup.png" width="400" alt="Sign Up Form">
 
 **Steps:**
 1. Enter your email as username
@@ -66,7 +66,7 @@ Start by choosing to **Sign Up** or **Log In**
 ---
 
 ### 3. Login
-<img src="assets/Screenshot_2025-07-17_153322.png" width="400" alt="Login Form">
+<img src="assets/login.png" width="400" alt="Login Form">
 
 **Steps:**
 1. Enter your registered email
@@ -76,7 +76,7 @@ Start by choosing to **Sign Up** or **Log In**
 ---
 
 ### 4. User Dashboard (Unsubscribed)
-<img src="assets/Screenshot_2025-07-17_153351.png" width="400" alt="Unsubscribed Profile">
+<img src="assets/profile.png" width="400" alt="Unsubscribed Profile">
 
 **Features:**
 - View account status
@@ -86,7 +86,7 @@ Start by choosing to **Sign Up** or **Log In**
 ---
 
 ### 5. Stripe Checkout
-<img src="assets/Screenshot_2025-07-17_153451.png" width="400" alt="Stripe Payment">
+<img src="assets/subscription.png" width="400" alt="Stripe Payment">
 
 **Test Payment:**
 - Card: `4242 4242 4242 4242`
@@ -97,7 +97,7 @@ Start by choosing to **Sign Up** or **Log In**
 ---
 
 ### 6. User Dashboard (Subscribed)
-<img src="assets/Screenshot_2025-07-17_153556.png" width="400" alt="Subscribed Profile">
+<img src="assets/subprofile.png" width="400" alt="Subscribed Profile">
 
 **New Features:**
 - Status updates to "Subscribed: Yes"
@@ -107,7 +107,7 @@ Start by choosing to **Sign Up** or **Log In**
 ---
 
 ### 7. Billing Portal
-<img src="assets/Screenshot_2025-07-17_153625.png" width="400" alt="Billing Portal">
+<img src="assets/managebilling.png" width="400" alt="Billing Portal">
 
 **Capabilities:**
 - View subscription details
