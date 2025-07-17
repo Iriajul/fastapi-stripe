@@ -49,7 +49,7 @@ A complete authentication and subscription management system with Stripe integra
 ## 📸 Visual Walkthrough
 
 ### 1. Welcome Screen
-<img src="D:\fastapi\assets\Screenshot_2025-07-17_153214.png" width="400" alt="Welcome Screen">
+<img src="assets/Screenshot_2025-07-17_153214.png" width="400" alt="Welcome Screen">
 
 Start by choosing to **Sign Up** or **Log In**
 
