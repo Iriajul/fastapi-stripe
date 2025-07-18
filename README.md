@@ -43,5 +43,5 @@ uvicorn main:app --reload
 ## 📸 Visual Walkthrough
 
 ### 1. Welcome Screen
-<img width="627" height="197" alt="welcome" src="https://github.com/user-attachments/assets/92b8122c-59ee-4689-bd67-4392cefcfc76" />
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/83cdc5a81d0c0d8809dd36989b03c0aad7e055f0/assets/welcome.png)
 
