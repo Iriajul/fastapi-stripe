@@ -40,3 +40,5 @@ cp .env.example .env
 # Run the application
 uvicorn main:app --reload
 
+### 🖼️ Home Page
+![Home Page](assets/welcome.png)
