@@ -29,16 +29,16 @@
 ### 3. Login Page
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/login.png)
 
-### 3. Profile
+### 4. Profile
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/profile.png)
 
-### 3. Subscription
+### 5. Subscription
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/subscription.png)
 
-### 3. Back to profile
+### 6. Back to profile
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/subprofile.png)
 
-### 3. Manage billing
+### 7. Manage billing
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/managebilling.png)
 
 ### Installation
