@@ -23,3 +23,22 @@ A complete authentication and subscription management system built with FastAPI,
 ### 1. Welcome Screen
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/83cdc5a81d0c0d8809dd36989b03c0aad7e055f0/assets/welcome.png)
 
+### 2. Signup Page
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/signup.png)
+
+### 3. Login Page
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/login.png)
+
+### 3. Profile
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/profile.png)
+
+### 3. Subscription
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/subscription.png)
+
+### 3. Back to profile
+![image alt](hhttps://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/subprofile.png)
+
+### 3. Manage billing
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/managebilling.png)
+
+
