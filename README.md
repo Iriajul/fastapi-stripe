@@ -1,5 +1,5 @@
 
-A complete authentication and subscription management system built with FastAPI, integrating JWT authentication and Stripe payments.
+# A complete authentication and subscription management system built with FastAPI, integrating JWT authentication and Stripe payments.
 
 ## ✨ Features
 
