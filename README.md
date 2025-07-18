@@ -56,7 +56,6 @@ pip install -r requirements.txt
 
 # Set up environment variables
 cp .env.example .env
-# Edit .env with your credentials
 
 # Run the application
 uvicorn main:app --reload
