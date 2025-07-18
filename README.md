@@ -19,28 +19,6 @@ A complete authentication and subscription management system built with FastAPI,
 - Stripe account
 - PostgreSQL 
 
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/fastapi-stripe.git
-cd auth-subscription-api
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate    # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your credentials
-
-# Run the application
-uvicorn main:app --reload
-
-## 📸 Visual Walkthrough
 
 ### 1. Welcome Screen
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/83cdc5a81d0c0d8809dd36989b03c0aad7e055f0/assets/welcome.png)
