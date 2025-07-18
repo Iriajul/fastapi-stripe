@@ -63,4 +63,13 @@ uvicorn main:app --reload
 ### Workflow
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/3605cb0d5329936e6d4a7ca27df00c3a6a2c9a40/assets/deepseek_mermaid_20250717_9582c5.png)
 
+## Credits
+
+- Built with [FastAPI](https://fastapi.tiangolo.com/), [SQLAlchemy](https://www.sqlalchemy.org/), and [PostgreSQL](https://www.postgresql.org/).
+
+## License
+
+MIT License
+
+
 
