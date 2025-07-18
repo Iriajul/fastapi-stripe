@@ -44,7 +44,7 @@ A complete authentication and subscription management system built with FastAPI,
 ### Installation
 bash
 # Clone the repository
-git clone https://github.com/yourusername/fastapi-stripe.git
+git clone https://github.com/iriajul/fastapi-stripe.git
 cd auth-subscription-api
 
 # Create virtual environment
@@ -63,6 +63,6 @@ cp .env.example .env
 uvicorn main:app --reload
 
 ### Workflow
-![image alt](
+![image alt](https://github.com/Iriajul/fastapi-stripe/blob/3605cb0d5329936e6d4a7ca27df00c3a6a2c9a40/assets/deepseek_mermaid_20250717_9582c5.png)
 
 
