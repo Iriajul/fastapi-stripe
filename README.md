@@ -40,5 +40,8 @@ cp .env.example .env
 # Run the application
 uvicorn main:app --reload
 
-### 🖼️ Home Page
-![Home Page](assets/welcome.png)
+## 📸 Visual Walkthrough
+
+### 1. Welcome Screen
+<img width="627" height="197" alt="welcome" src="https://github.com/user-attachments/assets/92b8122c-59ee-4689-bd67-4392cefcfc76" />
+
