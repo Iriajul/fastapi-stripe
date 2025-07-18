@@ -45,7 +45,6 @@ A complete authentication and subscription management system built with FastAPI,
 bash
 # Clone the repository
 git clone https://github.com/iriajul/fastapi-stripe.git
-cd auth-subscription-api
 
 # Create virtual environment
 python -m venv venv
