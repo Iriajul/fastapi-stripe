@@ -41,4 +41,28 @@ A complete authentication and subscription management system built with FastAPI,
 ### 3. Manage billing
 ![image alt](https://github.com/Iriajul/fastapi-stripe/blob/5f3982f3162e664e3d1f02df4cc5e7a84fb72311/assets/managebilling.png)
 
+### Installation
+bash
+# Clone the repository
+git clone https://github.com/yourusername/fastapi-stripe.git
+cd auth-subscription-api
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate    # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your credentials
+
+# Run the application
+uvicorn main:app --reload
+
+### Workflow
+![image alt](
+
 
